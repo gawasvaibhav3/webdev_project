@@ -1,0 +1,183 @@
+img{
+    opacity: 70%;
+    width: 107rem;
+    height: 51rem;
+}
+.menu_bar {
+    margin-top: -.4rem;
+    margin-left: -.123rem;
+    margin-right: -.3rem;
+    color: darkseagreen;
+    background-color: black;
+    display: flex;
+    height: 3rem;
+    font-size: 30px;
+}
+
+
+div#menu_1 {
+    position: relative;
+    border-style: solid;
+    padding-left: 1.5rem;
+    padding-top: .3rem;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+    padding-right: 1rem;
+}
+
+div#menu_2 {
+    position: relative;
+    padding-left: 1.5rem;
+    border-style: solid;
+    padding-top: .3rem;
+}
+div#menu_3 {
+    position: relative;
+    padding-left: 1.5rem;
+    border-style: solid;
+    padding-top: .3rem;
+}
+div#menu_4 {
+    position: relative;
+    padding-left: 1.5rem;
+    border-style: solid;
+    padding-top: .3rem;
+}
+div#menu_5 {
+    position: relative;
+    margin-left: 48.9rem;
+    padding-left: 1.5rem;
+    border-style: solid;
+    padding-top: .3rem;
+}
+
+#menu_1:hover{
+    color: red;
+}
+
+#menu_2:hover{
+    color: rgb(251, 209, 0);
+}
+
+#menu_3:hover{
+    color: rgb(0, 255, 13);
+}
+#menu_4:hover{
+    color: rgb(0, 247, 255);
+}
+#menu_5:hover{
+    color: rgb(0, 0, 255);
+}
+.containers{
+    
+    position: absolute;
+    margin-left: 20rem;
+    display: flex;
+    margin-top: -41rem;
+    width: 84rem;
+}
+
+.\31 {
+    background-color: whitesmoke;
+    padding-top: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: -6rem;
+    margin-left: -16rem;
+    border: solid;
+    margin-bottom: -35rem;
+
+}
+
+.\32 {
+    background-color: whitesmoke;
+    padding-top: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: -6rem;
+    border: solid;
+    margin-bottom: -35rem;
+
+}
+.\33 {
+    background-color: whitesmoke;
+    padding-top: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: -6rem;
+    border: solid;
+    margin-bottom: -35rem;
+
+}
+
+a#next {
+    padding-left: 1rem;
+    position: absolute;
+    margin-top: -50rem;
+    margin-left: 5rem;
+    border: double;
+    color: rgb(0, 0, 0);
+    background-color: chartreuse;
+}
+
+a#prev {
+    padding-left: 0.5rem;
+    position: absolute;
+    margin-top: -50rem;
+    margin-left: 5rem;
+    border: double;
+    color: black;
+    background-color: rgb(187 187 255);
+}
+
+canvas#myChart1 {
+    width: 19rem !important;
+    height: 17rem !important;
+    margin-top: 21rem;
+    margin-right: -30rem !important;
+    margin-left: 0rem !important;
+}
+
+canvas#myChart2 {
+    width: 19rem !important;
+    height: 17rem !important;
+    margin-top: 21rem;
+    margin-right: -30rem !important;
+    margin-left: 0rem !important;
+}
+canvas#myChart3 {
+    width: 19rem !important;
+    height: 17rem !important;
+    margin-top: 21rem;
+    margin-right: -30rem !important;
+    margin-left: 0rem !important;
+}
+
+p {
+    position: static;
+    margin-left: -8rem;
+    margin-right: -10rem;
+    margin-top: -33rem;
+}
+
+p#rating {
+    margin-top: 2rem;
+}
+
+.star-rating {
+    font-size: 0;
+    white-space: nowrap;
+    display: inline-block;
+    width: 120px;
+    height: 24px;
+    overflow: hidden;
+    background: url(.\star.png) 0 -24px repeat-x;
+  }
+  
+b{
+    position: absolute;
+    margin-top: -1rem;
+}
