@@ -1,0 +1,131 @@
+.menu_bar {
+    margin-top: -.4rem;
+    margin-left: -.123rem;
+    margin-right: -.3rem;
+    color: darkseagreen;
+    background-color: black;
+    display: flex;
+    height: 3rem;
+    font-size: 30px;
+}
+
+div#menu_1 {
+    position: relative;
+    border-style: solid;
+    padding-left: 1.5rem;
+    padding-top: .3rem;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+    padding-right: 1rem;
+}
+
+div#menu_2 {
+    position: relative;
+    padding-left: 1.5rem;
+    border-style: solid;
+    padding-top: .3rem;
+}
+div#menu_3 {
+    position: relative;
+    padding-left: 1.5rem;
+    border-style: solid;
+    padding-top: .3rem;
+}
+div#menu_4 {
+    position: relative;
+    padding-left: 1.5rem;
+    border-style: solid;
+    padding-top: .3rem;
+}
+div#menu_5 {
+    position: relative;
+    margin-left: 88.2rem;
+    padding-left: 1.5rem;
+    border-style: solid;
+    padding-top: 0.3rem;
+}
+
+
+label {
+    font-family: cursive;
+    font-size: 2.5rem;
+}
+input#search_input {
+    padding-left: 2rem;
+    padding-right: 1rem;
+    font-family: cursive;
+    border-radius: 14.2px;
+    font-size: 1.9rem;
+    height: 3rem;
+    width: 200px;
+    position: absolute;
+    margin-top: 7px;
+}
+
+#menu_1:hover{
+    color: red;
+}
+
+#menu_2:hover{
+    color: rgb(251, 209, 0);
+}
+
+#menu_3:hover{
+    color: rgb(0, 255, 13);
+}
+#menu_4:hover{
+    color: rgb(0, 247, 255);
+}
+#menu_5:hover{
+    color: rgb(0, 0, 255);
+}
+
+i.fa.fa-plane {
+    font-size: 5rem;
+    margin-top: -.2rem;
+    margin-left: 17rem;
+    position: absolute;
+}
+
+img {
+    opacity: 70%;
+    margin-left: -.1rem;
+    height: 50rem;
+    width: 107rem;
+}
+
+.search {
+    position: absolute;
+    margin-top: -39rem;
+    margin-left: 32rem;
+}
+
+a#next {
+    padding-left: 1rem;
+    position: absolute;
+    margin-top: -50rem;
+    margin-left: 5rem;
+    border: double;
+    color: rgb(0, 0, 0);
+    background-color: chartreuse;
+}
+
+a#prev {
+    padding-left: 0.5rem;
+    position: absolute;
+    margin-top: -50rem;
+    margin-left: 5rem;
+    border: double;
+    color: black;
+    background-color: rgb(187 187 255);
+}
+
+select#state {
+    font-size: 25px;
+    margin-top: -0.9rem;
+    width: 15rem;
+    height: 2rem;
+}

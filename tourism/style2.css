@@ -1,0 +1,311 @@
+#img_back{
+    opacity: 70%;
+    width: 107rem;
+    height: 51rem;
+}
+
+img {
+    width: 25rem;
+    height: 16rem;
+    position: relative;
+}
+.menu_bar {
+    margin-top: -.4rem;
+    margin-left: -.123rem;
+    margin-right: -.3rem;
+    color: darkseagreen;
+    background-color: black;
+    display: flex;
+    height: 3rem;
+    font-size: 30px;
+}
+
+
+div#menu_1 {
+    position: relative;
+    border-style: solid;
+    padding-left: 1.5rem;
+    padding-top: .3rem;
+}
+
+button#butt1 {
+    height: 2rem;
+    width: 7rem;
+    position: relative;
+    top: -10rem;
+    left: 13rem;
+}
+
+
+a {
+    color: currentColor;
+    text-decoration: none;
+    padding-right: 1rem;
+}
+
+div#menu_2 {
+    position: relative;
+    padding-left: 1.5rem;
+    border-style: solid;
+    padding-top: .3rem;
+}
+div#menu_3 {
+    position: relative;
+    padding-left: 1.5rem;
+    border-style: solid;
+    padding-top: .3rem;
+}
+div#menu_4 {
+    position: relative;
+    padding-left: 1.5rem;
+    border-style: solid;
+    padding-top: .3rem;
+}
+div#menu_5 {
+    position: relative;
+    margin-left: 60.9rem;
+    padding-left: 1.5rem;
+    border-style: solid;
+    padding-top: 0.3rem;
+}
+
+#menu_1:hover{
+    color: red;
+}
+
+#menu_2:hover{
+    color: rgb(251, 209, 0);
+}
+
+#menu_3:hover{
+    color: rgb(0, 255, 13);
+}
+#menu_4:hover{
+    color: rgb(0, 247, 255);
+}
+#menu_5:hover{
+    color: rgb(0, 0, 255);
+}
+
+.containers{
+    position: relative;
+    margin-left: 2rem;
+    display: flex;
+    margin-top: -48rem;
+    width: 103.3rem;
+}
+
+.class_1 {
+    width: 268rem;
+    border-style: double;
+    background-color: white;
+    display: grid;
+
+}
+
+.class_2 {
+    width: 268rem;
+    border-style: double;
+    background-color: white;
+    display: grid;
+
+}
+
+.class_3 {
+    width: 268rem;
+    border-style: double;
+    background-color: white;
+    display: grid;
+
+}
+
+a#next {
+    padding-left: 1rem;
+    position: fixed;
+    margin-top: -51.5rem;
+    margin-left: 0rem;
+    border: double;
+    color: rgb(0, 0, 0);
+    background-color: chartreuse;
+}
+
+a#prev {
+    padding-left: 0.5rem;
+    position: fixed;
+    margin-top: -51.5rem;
+    margin-left: 5rem;
+    border: double;
+    color: black;
+    background-color: rgb(187 187 255);
+}
+
+canvas#myChart1 {
+    width: 19rem !important;
+    height: 17rem !important;
+    margin-top: 21rem;
+    margin-right: -30rem !important;
+    margin-left: 0rem !important;
+}
+
+canvas#myChart2 {
+    width: 19rem !important;
+    height: 17rem !important;
+    margin-top: 21rem;
+    margin-right: -30rem !important;
+    margin-left: 0rem !important;
+}
+canvas#myChart3 {
+    width: 19rem !important;
+    height: 17rem !important;
+    margin-top: 21rem;
+    margin-right: -30rem !important;
+    margin-left: 0rem !important;
+}
+
+p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: -33rem;
+    position: relative;
+}
+
+p#rating {
+    margin-top: 2rem;
+}
+
+.star-rating {
+    font-size: 0;
+    white-space: nowrap;
+    display: inline-block;
+    width: 120px;
+    height: 24px;
+    overflow: hidden;
+    background: url(.\star.png) 0 -24px repeat-x;
+  }
+  
+b{
+    font-size: 1.3rem;
+    margin-left: 8rem;
+    position: absolute;
+    margin-top: 2rem;
+}
+
+form {
+    margin-left: 14rem;
+    margin-top: -51rem;
+    position: fixed;
+}
+
+div#place-image {
+    margin-top: -32rem;
+    margin-left: 3rem;
+}
+
+div#place-image1 {
+    border-style: ridge;
+    position: absolute;
+    margin-left: 5rem;
+    margin-top: 11rem;
+
+}
+
+div#place-image2 {
+    border-style: ridge;
+    position: absolute;
+    margin-left: 5rem;
+    margin-top: 11rem;
+
+}
+
+div#place-image3 {
+    border-style: ridge;
+    position: absolute;
+    margin-left: 4rem;
+    margin-top: 11rem;
+
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    display: flex;
+    flex-wrap:wrap ;
+    background-color: #fefefe;
+    margin: 3% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* increase the width */
+    height: 80%; /* increase the height */
+    overflow: auto;
+}
+
+form {
+    display: contents;
+    margin-left: 14rem;
+    margin-top: -51rem;
+    position: fixed;
+}
+
+select#year-select {
+    width: 5rem;
+    height: 2rem;
+}
+
+input[type="submit"] {
+    width: 5rem;
+    height: 2rem;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#map1 {
+    width: 500px;
+    height: 500px;
+}
+
+#map2 {
+    width: 500px;
+    height: 500px;
+}
+
+#map3 {
+    width: 100%;
+    height: 100%;
+}
+
+p#rating1 {
+    display: none;
+    top: 30rem;
+}
+
+p#rating2 {
+    display: none;
+    top: 30rem;
+}
+
+p#rating3 {
+    display: none;
+    top: 30rem;
+}
